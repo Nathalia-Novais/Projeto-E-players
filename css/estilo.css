@@ -6,6 +6,7 @@
 header{
     background-color: black;
     height: 60px;
+
 }
 
 .container_header{
@@ -32,6 +33,73 @@ margin: 13px 103px;}
 text-decoration: none;
 font-size: 18px;
 }
+
+.container-banner{
+    height: 600px;
+    margin-top: -3px;
+    background-size: cover;
+}
+
+.container-conteudo-banner{
+    display: flex;
+    justify-content: end;
+    margin: 0px auto;
+    height: 100%;
+    width: auto;
+
+}
+
+.conteudo-banner{
+    display: flex;
+flex-direction: column;
+width: 590px;
+height: 595px;
+align-items: center;
+margin: -401px 0;
+}
+
+ .conteudo-banner h1{
+    color: white;
+    font-size: 57px;
+    font-family: 'Titillium Web', sans-serif;
+    width: 420px;
+    margin: 71px 0 0 28px;
+}
+
+.conteudo-banner span{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 15px 0 -80px;
+
+}
+
+.botao-inscrever{
+    text-decoration: none;
+color: white;
+text-transform: uppercase;
+font-family: 'Titillium Web', sans-serif;
+font-size: 22px;
+background: #700f9a;
+border-radius: 10px;
+width: 211px;
+height: 33px;
+margin-top: 100px;
+border-color: black;
+border-style: solid;
+border-width: thin;
+text-align: center;}
+    
+.container-img{
+    height: 132px;
+    background-color: #413C49;
+    display: flex;
+    align-items: center;
+}
+
+
+
 
 
 
@@ -76,6 +144,21 @@ height: 89px;
     
 }
 
+.boneca{
+    position: absolute;
+top: 592px;
+height: 60%;
+left: 769px;
+
+}
+
+.bloco_preto{
+    clip-path: polygon(0 14%, 54% 0, 100% 70%, 46% 92%);
+    background-color: black;
+    position: absolute;
+    
+}
+
 .como_participar{
     color:black;
     height: 400px;
@@ -90,7 +173,7 @@ height: 89px;
 flex-direction: column;
 padding: 25px;
 position: absolute;
-left: 90px;
+left: 175px;
 top: 625px;
 
     
@@ -211,27 +294,250 @@ flex-direction: column;
 
         }
 
-        .noticias article{
-            width: 50%;
-min-width: 250px;
-display: inline-block;
-vertical-align: top;
-font-size: 0;
+        .noticias_proximos_jogos{
+            background-color: rgba(30, 28, 33, 1);
+            display: flex;
+            height: 100%;
+            width: 100%;
+        }
+        .noticias{
+            display: flex;
         }
 
-        .retangulo´{
-            height: auto;
-            display: flex;
-height: 347px;
+        .texto_noticia{
+            color: white;
+        }
+
+
+        .traço_separativo {
+            height: 40px;
+            width: 1px;
+            background-color: white;
         }
         
-        .imagem_retangulo{
+        .container_noticias {
+            background-color: #1E1C21;
+            height: 600px;
+        }
+        
+        .noticias {
             display: flex;
-margin: 50px 0 0 752px;
-height: 393px
+
+        }
+        
+        .noticias h2 {
+            color: white;
+            margin: 23px 0 0px 191px;
+        }
+        
+        .posicionamento_jogadora{
+            display: flex;
+            flex-wrap: wrap;
+            width: 77%;
+            justify-content: space-evenly;
+            margin: 27px 148px;
         }
 
+        .artigo{
+            margin-bottom: 27px;
+        }
+         
     
+        
+        .artigo img {
+            height: 127px;
+            width: 179px;
+        }
+        
+        .texto_noticia {
+            height: 160px;
+            width: 181px;
+            background-color: rgb(60, 58, 58);
+            
+        }
+        
+        .texto_noticia h3 {
+            color: white;
+            width: 160px;
+            margin-bottom: 10px;
+        }
+        
+        .texto_noticia p {
+            color: white;
+            width: 160px;
+            font-size: small;
+        }
+        
 
+        .imagem_proximos_jogos{
+            width: 100%;
+height: 708px;
+display: flex;
+flex-direction: column;
+position: relative;
+right: 189px;
+      
+        }
+
+        .proximos_jogos h2{
+            color: #ffffff;
+            margin: 21px 81px -47px 82px;
+        }
+        
+        .box_jogos{
+            width: 19vw;
+            height: 617px;
+            padding: 31px 0px;
+            background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(45,45,45,1) 25%,rgba(45,45,45,1) 75%,rgba(45,45,45,1) 75%,rgb(45, 45, 45) 75%,rgba(0,0,0,1) 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            margin: 84px 78px;
+        }
+        
+        .conteudo_proximos_jogos{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+            font-weight:normal;
+            font-size: 25px;
+        }
+        
+        .vs_sk{
+            width: 17vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            font-weight:normal;
+            font-size: 22px;
+        }
+        
+        .data{
+            margin: 13px 0;
+        }
+        
+
+ .footer1 {
+            padding: 13px;
+            background-color: black;
+        }
+
+        .container_footer{
+            display: flex;
+align-items: center;
+
+        }
+
+        .links_footer {
+            width: 24%;
+            display: flex;
+            justify-content: space-around;
+            margin: auto;
+        }
+        
+        .links {
+            color: white;
+        }
+        
+        .links a {
+            text-decoration: none;
+            color: white;
+        }
+        
+       
+        
+        .logo_footer {
+                width: 320px;
+                display: flex;
+                align-items: center;
+                margin: auto;
+        }
+        
+        .redes_sociais{
+            margin: auto;
+        }
+
+        .redes_sociais h2 {
+            color: white;
+            font-size: 14px;
+margin-bottom: 12px;
+        }
+        
+        
+        .redes_sociais form {
+            display: flex;    
+            margin-bottom: auto;
+        }
+        
+        .redes_sociais input[type="email"]{
+            width: 79%;
+            height: 28px;
+        }
+        
+        .redes_sociais input[type="email"]::placeholder {
+            color: #B8B3B3;
+            font-weight: bold;
+        }
+        
+        .redes_sociais input[type="submit"]{
+            width: 79%;
+            color: white;
+            background-color: #450393;
+            font-size: 17px;
+        
+        }
+        
+        .siga {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 13px;
+        }
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px) {
+    .container{width: 120vw;}
+    .nav_header{
+        background-color: black;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 300px;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+
+    }
+    
+}
 
 
