@@ -515,29 +515,3 @@ margin-bottom: 12px;
 
 
 
-
-
-
-
-
-
-
-
-
-@media(max-width:600px) {
-    .container{width: 120vw;}
-    .nav_header{
-        background-color: black;
-        flex-direction: column;
-        justify-content: space-evenly;
-        height: 300px;
-        width: 100%;
-        position: absolute;
-        top: 60px;
-        left: 0;
-
-    }
-    
-}
-
-

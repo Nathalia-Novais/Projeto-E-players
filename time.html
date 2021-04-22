@@ -9,39 +9,68 @@
 </head>
 <body>
     <header>
-        <iframe src="header.html"  height="" width="100%"></iframe>
+      <div class="container container_header">
+        <img class="logo"  src="imagem/Group.png" alt="">
+        <nav id="links" class="nav_header">
+        <a href="#container_banner">Início</a>
+        <a href="">Horários</a>
+        <a href="">Campeonatos</a>
+        <a href="">Resultados</a>
+        <a href="#noticias">Noticías</a>      
+        </nav>  
     </header>
 
 
     <main>
       <section class="banner">
-        <div class="imagem_banner">
-        <img src="imagem/bg-lol 1.png" alt="">
-        <h1>Cadastro De time</h1>
+        <h1>Cadastro de Times</h1>
+    </section>
+
+    <section class="cadastrar">
+        <div class="box_cadastrar">
+            <div class="cadastrar_conteudo">
+                <div class="nome">
+                    <span>Nome da Equipe</span>
+                    <input type="email" name="nome" id="nome">
+                </div>
+                <div class="Emblema">
+                    <span>Emblema</span>
+                    <a href="#"> <input type="button" value="Escolha Imagem"></a>
+                </div>
+                <div class="cadastrar_botao">
+                    <a href="#"><input type="button" value="CADASTRAR"></a>
+                </div>
+            </div>
+            <div class="lista">
+                <span>Lista de Times</span>
+                <table>
+                    <tr class="primeira_linha">
+                        <th>Nome da Equipe</th>
+                        <th>Emblema</th>
+                    </tr>
+                    <tr>
+                        <th>SENAI Cytechs</th>
+                        <th><img src="imagem/fla-logo 4.png" alt="logo_flamengo"></th>
+                    </tr>
+                    <tr>
+                        <th>Flamengo</th>
+                        <th><img src="imagem/fla-logo 4.png" alt="logo_flamengo"></th>
+                    </tr>
+                </table>
+            </div>
         </div>
-
-        <section class="conteudo_inicial">
-            <table style="width:100%">
-                <tr>
-                  <th>Firstname</th>
-                  <th>Lastname</th>
-                  <th>Age</th>
-                </tr>
-              </table> 
-
-
-        </section>
-
-
-      </section>
-
-
+    </section>
 
 
     </main>
 
 
-    <footer></footer>
+    <footer>
+     <iframe src="footer.html" frameborder="0" height="100%" width="100%"  ></iframe>
+    </footer>
+
+
+    </footer>
     
 </body>
 </html>
