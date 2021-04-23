@@ -5,20 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro De jogador</title>
+    <script src="https://kit.fontawesome.com/5be3c6a60e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/jogador2.css">
 </head>
 <body>
     <header>
-      <div class="container container_header">
-        <img class="logo"  src="imagem/Group.png" alt="">
-        <nav id="links" class="nav_header">
-        <a href="indox.html">Início</a>
-        <a href="">Horários</a>
-        <a href="">Campeonatos</a>
-        <a href="">Resultados</a>
-        <a href="#noticias">Noticías</a>      
-        </nav>  
-    </header>
+        <div class="container container_header">
+          <img class="logo"  src="imagem/Group.png" alt="">
+          <nav id="links" class="nav_header">
+          <a href="indox.html">Início</a>
+          <a href="">Horários</a>
+          <a href="indox.html">Campeonatos</a>
+          <a href="">Resultados</a>
+          <a href="indox.html   #noticias " >Noticías</a>      
+          </nav>  
+          <a  class="botao_hamburguer" href="#" onclick="botaodomenu()">
+              <i class="fas fa-bars"></i> 
+         </a>
+        </div>
+      </header>
 
     
        
@@ -115,6 +120,20 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        function botaodomenu(){
+            var menu = document.getElementById("links");
+            if (menu.style.display === "flex") {
+                //esconder menu
+                menu.style.display = "none";
+            } else{
+                //mostrar o menu
+                menu.style.display = "flex";
+                
+            }
+        }
+      </script>
     
 </body>
 </html>

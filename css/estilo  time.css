@@ -39,6 +39,11 @@
     font-size: 18px;
     }
 
+    .botao_hamburguer {
+        display: none;
+    }
+
+
 main {
     margin-top: 0;
 }
@@ -172,3 +177,93 @@ table span{
 .primeira_linha{
     background-color: black;
 }
+
+
+
+
+
+
+@media (max-width:480px){
+
+ header{
+        width: 100vw;
+    }
+
+    .container_header{
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .logo {
+        width: 256px;
+        margin: 13px 70px;
+    }
+
+    .nav_header{
+        background-color: black;
+flex-direction: column;
+justify-content: space-evenly;
+height: 300px;
+width: 100%;
+position: absolute;
+top: 60px;
+left: 0;
+
+    }
+
+    .botao_hamburguer {
+        display: inline-block;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+     .botao_hamburguer i{
+         color: #ffffff;
+         font-size: 30px;
+     }
+
+     .cadastrar_conteudo{
+        width: 408px;
+     }
+
+
+     .nome input {
+        width: 84vw;}
+
+.cadastrar_botao input {
+        width: 225px;}
+
+    .lista {
+        width: 769px;
+        height: 175px;
+    }
+
+    .lista span{
+        width: 166vw;
+    }
+
+    table, th, td {
+        width: 96vw;
+        margin-left: 158px;
+    } 
+
+}
+
+  
+
+
+
+    
+
+    
+
+ 
+
+
+
+
+
+
+
+   
+
