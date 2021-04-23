@@ -3,126 +3,104 @@
     box-sizing: border-box;}
 
 
-header{
-    background-color: black;
-    height: 60px;
 
-}
-
-.container_header{
+    header{
+        background-color: black;
+        height: 60px;
+        margin: auto auto;
+        position: fixed;
+        z-index: 99;
+        width: 100%;
+    
+    }
+    
+    .container_header{
+        display: flex;
+        justify-content: flex-end;
+        height: 100%;
+    }
+    
+    .logo{width: 322px;
+    height: 34px;
     display: flex;
     justify-content: flex-end;
-    height: 100%;
-}
-
-.logo{width: 322px;
-height: 34px;
-display: flex;
-justify-content: flex-end;
-margin: 13px 103px;}
-
-.nav_header{
-    display: flex;
-   justify-content: space-evenly;
-   align-items: center;
-    width: 755px;
-    height: 100%;
+    margin: 13px 103px;}
+    
+    .nav_header{
+        display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+        width: 755px;
+        height: 100%;
+        }
+    
+    .nav_header a{color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
     }
 
-.nav_header a{color: #ffffff;
-text-decoration: none;
-font-size: 18px;
-}
 
-.container-banner{
-    height: 600px;
-    margin-top: -3px;
-    background-size: cover;
-}
 
-.container-conteudo-banner{
-    display: flex;
-    justify-content: end;
-    margin: 0px auto;
-    height: 100%;
-    width: auto;
 
-}
 
-.conteudo-banner{
-    display: flex;
-flex-direction: column;
-width: 590px;
-height: 595px;
+
+.conteudo_banner {
+    background-image: url(../imagem/banner\ backgroud.png);
+display: flex;
 align-items: center;
-margin: -401px 0;
+width: 100%;
+height: 540px;
+margin-top: 0px;
 }
 
- .conteudo-banner h1{
-    color: white;
-    font-size: 57px;
-    font-family: 'Titillium Web', sans-serif;
-    width: 420px;
-    margin: 71px 0 0 28px;
+.conteudo_banner img {
+    width: 55vw;
+height: 73vh;
+margin-top: 85px;
 }
 
-.conteudo-banner span{
+.texto_banner {
+    display: flex;
+color: #fff;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+margin-left: 87px;
+height: 211px;
+}
+
+.texto_banner h1 {
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.texto_banner p {
+    color: whitesmoke;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    text-align: center;
-    margin: 15px 0 -80px;
-
 }
 
-.botao-inscrever{
-    text-decoration: none;
-color: white;
-text-transform: uppercase;
-font-family: 'Titillium Web', sans-serif;
-font-size: 22px;
-background: #700f9a;
-border-radius: 10px;
-width: 211px;
-height: 33px;
-margin-top: 100px;
-border-color: black;
-border-style: solid;
-border-width: thin;
-text-align: center;}
-    
-.container-img{
-    height: 132px;
-    background-color: #413C49;
+.btn_inscreva-se {
+    font-weight: 700;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: white;
+    width: 259px;
+    height: 38px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: rgb(108, 5, 143);
+    margin-top: 6px;
 }
 
 
-
-
-
-
-
-
-main{
-    margin-top: 0;
-}
-
-.container_banner{
-    position: relative;
-height: 495px;
-}
-.container_banner img{height: 451px;}
-
-.fundo_banner{
-    width: 100%;
-}
 
 .jogos{
     background-color: black;
-    height: 127px;
-    margin: -48px 0;
+    height: 93px;
 
 }
 
@@ -133,66 +111,56 @@ justify-content: space-evenly;
 height: 89px;
     margin: 0px 33px;
 }
-.texto{display: flex;
-    flex-direction: column;
-    justify-content: space-evenly}
 
 
-.fundo_texto{height: 395px;
+
+.ligas {
+    height: 438px;
     width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../imagem/bg-lol\ 1.png);
+    background-size: cover;
+    position: relative;
+}
+
+.box_retangulo {
+    clip-path: polygon(100% 0, 100% 89%, 0 100%, 0 9%);
+background-color: #000;
+height: 100%;
+width: 100%;
+}
+
+.container_conteudo {
     display: flex;
-    
+    align-items: center;
+    height: 100%;
 }
 
-.boneca{
+.conteudo_retangulo {
+    width: 49vw;
+margin-left: 174px;
+}
+
+.conteudo_retangulo h2 {
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 37px;
+}
+
+.conteudo_retangulo p {
+    color: #fff;
+    font-size: 19px;
+    text-align: justify;
+}
+
+.boneca {
+    height: 444px;
+    width: 316px;
     position: absolute;
-top: 592px;
-height: 60%;
-left: 769px;
-
+    right: 208px;
+    top: 0px;
 }
 
-.bloco_preto{
-    clip-path: polygon(0 14%, 54% 0, 100% 70%, 46% 92%);
-    background-color: black;
-    position: absolute;
-    
-}
-
-.como_participar{
-    color:black;
-    height: 400px;
-
-}
-    
-    .como_participar{
-       
-        color: #ffffff;
-        height: 403px;
-        display: flex;
-flex-direction: column;
-padding: 25px;
-position: absolute;
-left: 175px;
-top: 625px;
-
-    
-    }
-
-    .como_participar h3 {
-        color: #ffffff;
-text-transform: uppercase;
-width: 377px;
-font-size: 23px;
-margin: 13px 0 0 0;
-    }
-    
-    .como_participar p{
-        width: 534px;
-font-size: 12px;
-margin: 11px 0px;
-line-height: 21px;
-    }
     
             .aovivo_embreve {
                 background-color: black;
